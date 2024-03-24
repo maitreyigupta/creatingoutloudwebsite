@@ -2359,7 +2359,7 @@ textarea.form-control-lg {
   padding-bottom: 0.625rem;
 }
 .form-floating > .form-select {
-  padding-top: 1.625rem;
+  padding-top: 1.01rem;
   padding-bottom: 0.625rem;
 }
 .form-floating > .form-control:focus ~ label,
