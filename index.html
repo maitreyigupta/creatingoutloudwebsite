@@ -389,29 +389,29 @@
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="h-100 d-flex flex-column justify-content-center p-5">
                                 <h1 class="mb-4">Let's connect</h1>
-                                <form>
+                                <form method="POST" action="https://script.google.com/macros/s/AKfycby8_G8TK66irlaXr6lmuuE5akfFEeKQUvrgiztaWv49VH0ZcPy65Fd_wLSJ6kWiAc8oCg/exec">
                                     <div class="row g-3">
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="gname" placeholder="Name">
-                                                <label for="gname">Your Name</label>
+                                                <input type="text" name="name" class="form-control border-0" id="name" placeholder="name">
+                                                <label for="name">Your Name</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-6">
                                             <div class="form-floating">
-                                                <input type="email" class="form-control border-0" id="gmail" placeholder="Email">
-                                                <label for="gmail">Contact Number</label>
+                                                <input type="tel" class="form-control border-0" id="phone" placeholder="phone" name="phone">
+                                                <label for="phone">Contact Number</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="form-floating">
-                                                <input type="text" class="form-control border-0" id="cname" placeholder="Contact">
-                                                <label for="cname">Email</label>
+                                                <input name="email"  type="email" class="form-control border-0" id="email" placeholder="email">
+                                                <label for="email">Email</label>
                                             </div>
                                         </div>
                                         <div class="col-sm-12">
                                             <div class="form-floating">
-                                                <select id="cars" name="cars" class="form-select border-0">
+                                                <select id="product" name="product" class="form-select border-0">
                                                   <option disabled selected value >-- Select an offering -- </option>
                                                   <option value="memory-folio">Memory Deskfolio</option>
                                                   <option value="milestone-memories-frame">Milestone Memories Frame</option>
@@ -427,7 +427,7 @@
                                         </div>
                                         <div class="col-12">
                                             <div class="form-floating">
-                                                <textarea class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                                <textarea name="message" class="form-control border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
                                                 <label for="message">Your message here</label>
                                             </div>
                                         </div>
