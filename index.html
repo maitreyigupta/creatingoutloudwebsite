@@ -68,7 +68,6 @@
                     </div>
                     <a href="contact.html" class="nav-item nav-link">Contact Us</a>
                 </div>
-                <a href="" class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Join Us<i class="fa fa-arrow-right ms-3"></i></a>
             </div>
         </nav>
         <!-- Navbar End -->
@@ -389,7 +388,7 @@
                         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="h-100 d-flex flex-column justify-content-center p-5">
                                 <h1 class="mb-4">Let's connect</h1>
-                                <form method="POST" action="https://script.google.com/macros/s/AKfycby8_G8TK66irlaXr6lmuuE5akfFEeKQUvrgiztaWv49VH0ZcPy65Fd_wLSJ6kWiAc8oCg/exec">
+                                <form name="enquiry-form" id="enquiry-form" method="POST" action="https://script.google.com/macros/s/AKfycbwONn3Uu0M-8yYEq1UVzqoCMPpFdQ_8T23E7xYV5Ywi5L1APdbJ4W10F6x4yodRGJ0zKg/exec" >
                                     <div class="row g-3">
                                         <div class="col-sm-6">
                                             <div class="form-floating">
@@ -432,7 +431,7 @@
                                             </div>
                                         </div>
                                         <div class="col-12">
-                                            <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                            <input class="btn btn-primary w-100 py-3" type="submit" onclick="window.location.href='https:creatingoutloud.store';"></input>
                                         </div>
                                     </div>
                                 </form>
@@ -609,6 +608,7 @@
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <iframe name="formResponse" style="display:none"></iframe>
     </div>
 
     <!-- JavaScript Libraries -->
