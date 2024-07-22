@@ -7266,14 +7266,13 @@ button.close {
   }
   
   .category-card-category-card {
-    flex: 1 1 calc(50% - 20px); /* Two cards per row on mobile */
+    flex: 0 0 auto;
     cursor: pointer;
     display: flex;
     position: relative;
     transition: 0.3s;
     align-items: center;
     flex-direction: column;
-    box-sizing: border-box;
   }
   .category-card-category-card:hover {
     color: var(--dl-color-pallet-yellow);
@@ -7322,12 +7321,9 @@ button.close {
     flex-direction: column;
     /* padding-bottom: var(--dl-space-space-sixunits); */
   }
-   .home-max-width {
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 0;
-  } 
+  /* .home-max-width {
+    height: 396px;
+  } */
   .home-cards-container {
     flex: 0 0 auto;
     width: 100%;
@@ -7338,7 +7334,7 @@ button.close {
     align-items: flex-start;
     margin-bottom: var(--dl-space-space-fourunits);
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
   }
   .home-button {
     fill: var(--dl-color-gray-black);
@@ -7514,7 +7510,6 @@ button.close {
     justify-content: center;
     padding-bottom: 5%;
     background-color: white;
-    padding: 0%;
   }
   .max-width-container {
     width: 100%;
@@ -7528,6 +7523,7 @@ button.close {
   .column {
     display: flex;
     flex-direction: column;
+    /* padding-left: var(--dl-space-space-oneandhalfunits); */
   }
   .navbar-link {
     color: rgba(0, 0, 0, 1);
@@ -8036,16 +8032,10 @@ button.close {
   @media(max-width: 767px) {
     .section-container {
       padding-top: var(--dl-space-space-twounits);
-      padding-left:var(--dl-space-space-twounits) ;
-      padding-right: var(--dl-space-space-twounits);
-      padding-bottom: var(--dl-space-space-twounits);
     }
     .max-width-container {
       padding-left: var(--dl-space-space-unit);
       padding-right: var(--dl-space-space-unit);
-      box-sizing: border-box; /* Ensure padding is included in the width */
-      width: 100%; 
-
     }
     .thq-section-padding {
       padding: var(--dl-space-space-threeunits);
