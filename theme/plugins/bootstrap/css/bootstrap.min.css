@@ -1667,10 +1667,10 @@ pre code {
   padding-left: 15px;
 }
 .col-md-4{
-  position: relative;
+   position: relative;
   min-height: 1px;
   padding-right: 15px;
-  padding-left: 13px;
+  padding-left: 10px;
 }
 
 .col-xs-1,
