@@ -1632,7 +1632,6 @@ pre code {
 .col-md-12,
 .col-md-2,
 .col-md-3,
-.col-md-4,
 .col-md-5,
 .col-md-6,
 .col-md-7,
@@ -1667,6 +1666,13 @@ pre code {
   padding-right: 15px;
   padding-left: 15px;
 }
+.col-md-4{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 13px;
+}
+
 .col-xs-1,
 .col-xs-10,
 .col-xs-11,
